@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online CV</title>
+    <!-- Bootstrap stuff -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"/>
+      <!-- This makes the modal button work. -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous">
+  </script>
+  <script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous">
+  </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mycss.css"/>
+  </head>
+
+<!-- Modal Dialog Contents -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Contact Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <p><span>Email <i class="fa fa-envelope">:<a href="mailto:damioyedele24@gmail.com"> damioyedele24@gmail.com</a></i></span></p>
+        <p><span>Mobile <i class="fa fa-phone">:</i>+353 871 467 238</span></p>
+        LinkedIn: <a href="https://www.linkedin.com/in/damilare-oyedele/">linkedin.com/in/damilare-oyedele/</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <body>
+    <!-- Div for "hero component" with name, picture and about me. -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="photolol.jpg" alt="My photo" class="rounded-circle mx-auto d-block" style="height: 150px; width: 150px;"/>
+          <h1 class="text-center mb-5">Damilare Oyedele</h1>
+
+            <!-- Button to trigger/pop up modal content -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
+              Contacts
+            </button>
+
+            <p><strong>Profile:</strong></p>
+              <p>I am a driven and ambitious individual currently completing my final year of Computing with IT Management at TU Dublin Tallaght. Throughout my studies and work placement, I have gained a strong foundation in computer programming and IT principles, as well as the ability to effectively manage and lead projects. I am highly motivated to continue learning and improving my skills in the field, and am excited to apply my knowledge and experience in a professional setting.</p>
+          
+              <hr class="mb-5 bg-danger"/>
+
+          <!-- The CV part -->
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <h4>Work Experience</h4>
+              <h5>State Laboratory (Jan 2022 - Sep 2022)</h5>
+              <h6>Common Duties</h6>
+          <ul>
+            <li>Handling HelpDesk queries</li>
+            <li>PC troubleshoot, repair & maintenance</li>
+            <li>Housekeeping duties</li>
+            <li>Active Directory Management</li>
+          </ul>
+          <h6>Projects Completed</h6>
+          <ul>
+            <li>Phonebook centralization</li>
+            <li>MS Teams implementation into the organization</li>
+            <li>Dr Explain documentation series</li>
+            <li>New VOIP phones set up</li>
+          </ul>
+            </div>
+            
+            <div class="col-md-6">
+              <h4>Projects</h4>
+              <ul>
+                <li>
+                  <strong>2nd Year Project:</strong> A Netflix movie review built with HTML/CSS/JS. It enables users to submit a review for a movie and the data gets stored in firebase and displayed as a table back to the user.
+                </li><br>
+                <li>
+                  <strong>4th Year Project:</strong> A project focusing mainly on the Firewall aspect of how to secure a corporate network.
+                </li><br>
+                <li>
+                  <strong>Splash Course Game:</strong> An obstacle course game created by myself and two other teammates during my PLC at BCFE college.
+                  <a href="https://tombraiderz.itch.io/splashcourse">SPLASH COURSE</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr class="bg-danger">
+
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <h4>Education</h4>
+              <ul>
+                <li>
+                  BSc Hons in Computing with IT Management at TU Dublin Tallaght (2019 - 2023)
+                </li><br>
+                <li>
+                  QQI Level 6 in Games Design at Ballyfermot College of Further Education (2017 - 2019)
+                </li><br>
+                <li>
+                  90% Distinction in Leaving Certificate Applied at Pobalscoil Iosolde (2011 - 2017)
+                </li>
+              </ul>
+            </div>
+            
+
+            <div class="col-md-6">
+              <h4>Skills</h4>
+              <ul>
+                <li>
+                  Web development (HTML, CSS, JavaScript)
+                </li>
+                <li>
+                  Backend development (Node.js, PHP, Python)
+                </li>
+                <li>
+                  Database design and management (MySQL, MongoDB)
+                </li>
+                <li>
+                  Operating Systems (Windows scripts, Linux scripts          
+                </li>
+                <li>
+                  Excellent typist (84 wpm)          
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Modules and Grades section. -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Modules</th>
+              <th scope="col">Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Operating System Fundamentals</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Advanced Routing & Switching</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>Visual Design & User Experience</td>
+              <td>B-</td>
+            </tr>
+            <tr>
+              <td>Computer Architecture</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>Discrete Maths</td>
+              <td>C+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Achievements and Hobbies section -->
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <h4>Achievements</h4>
+              <ul>
+                <li>
+                  ECDL Certificate
+                </li>
+                <li>
+                  Class Rep (2019 - 2022)
+                </li>
+                <li>
+                  Student of the Year (2017)
+                </li>
+                <li>
+                  Table Tennis Player of the Year (2012, 2013, 2014)
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-md-6">
+              <h4>Hobbies</h4>
+              <ul>
+                <li>
+                  Playing Table Tennis.
+                </li>
+                <li>
+                  Reading non-fiction books.
+                </li>
+                <li>
+                  Exploring different genre of music.
+                </li>
+                <li>
+                  Competing in gaming tournaments.
+                </li>
+                <li>
+                  Spending time with friends and family.
+                </li>
+                <li>
+                  Learning about the universe through astrophysics videos, books, and podcasts.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+    <!-- HTML and Javascript button for scrolling to the top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+      </script>
+
+    <footer class="sticky-footer">
+      <div class="container">
+        <p class="text-muted">&copy; IMD CA2 - Damilare Oyedele | X00167049</p>
+      </div>
+    </footer>
+      
+  </body>
+</html>
